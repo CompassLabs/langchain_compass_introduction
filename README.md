@@ -27,7 +27,7 @@ To see an LLM-Application built using the toolkit please checkout the [Compass A
 
 To begin, install and import the toolkit in your Python environment.
 ```bash
-pip install -qU langchain-tavily
+pip install -qU langchain-compass
 ```
 
 Then, you can list the available tools provided by LangChain-Compass simply by running:
