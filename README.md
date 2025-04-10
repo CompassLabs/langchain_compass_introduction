@@ -45,7 +45,51 @@ Here is a table presenting the different tools:
 [TABLE HERE]
 
 
-# 4. 
+# 4. Building a Simple ReAct Agent Using LangChain
+
+LangChain is a popular framework for building AI agents that can process and respond to language inputs. The ReAct paradigm—short for “Reason and Act”—encourages the agent to think step-by-step before taking an action. Here’s how you can set up a LangChain ReAct agent equipped with the LangChain-Compass DeFi tools.
+
+```python
+from langchain_openai import ChatOpenAI
+from langgraph.prebuilt import create_react_agent
+from langchain_compass.toolkits import LangchainCompassToolkit
+from dotenv import load_dotenv
+from langgraph.checkpoint.memory import MemorySaver
+
+# Load environment variables (optional, for API keys, etc.)
+load_dotenv()
+
+# Initialize LLM - replace 'gpt-4o' with a model of your choice
+llm = ChatOpenAI(model='gpt-4o')
+
+# Get the DeFi tools from LangchainCompassToolkit
+tools = LangchainCompassToolkit(compass_api_key=None).get_tools()
+
+# Setup memory for your agent
+memory = MemorySaver()
+
+# Create a ReAct agent with the specified LLM, tools, and memory
+agent = create_react_agent(
+    llm,
+    tools=tools,
+    checkpointer=memory,
+    prompt="You are a helpful agent that can interact onchain using tools that you've been told how to use."
+)
+
+# Example user query
+from langchain_core.messages import HumanMessage
+user_input = 'what is the balance of vitalic.eth.'
+
+# Optional config data, such as thread IDs or session context
+config = {"configurable": {"thread_id": "abc123"}}
+
+# Invoke the agent with the user query
+output = agent.invoke(input={"messages": [HumanMessage(content=user_input)]}, config=config)
+
+# Display the agent's final response
+print(output["messages"][-1].content)
+```
+
 
 
 
