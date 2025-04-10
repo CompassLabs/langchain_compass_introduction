@@ -13,7 +13,7 @@ In this article, we'll walk through:
 Let's dive in.
 
 # 1. What is LangChain-Compass 1.0? 
-The **LangChain-Compass** toolkit gives LLM's access to a (Universal DeFi API)[https://docs.compasslabs.ai/documentation/getting-started]. This means LLM-based agents can perform actions like:
+The **LangChain-Compass** toolkit gives LLM's access to a [Universal DeFi API](https://docs.compasslabs.ai/documentation/getting-started). This means LLM-based agents can perform actions like:
 
 - Swap tokens on major DEXs like Uniswap
 - Lend or borrow assets using protocols such as Aave
@@ -21,7 +21,7 @@ The **LangChain-Compass** toolkit gives LLM's access to a (Universal DeFi API)[h
 - Transfer funds between wallets.
 - Query balances, portfolios and positions
 
-To see an LLM-Application built using the toolkit please checkout the (Compass AI here)[https://gpt.compasslabs.ai/]
+To see an LLM-Application built using the toolkit please checkout the [Compass AI here](https://gpt.compasslabs.ai/)
 
 # 2. How to Use the Toolkit
 
