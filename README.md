@@ -42,7 +42,8 @@ from langchain_compass.toolkits import LangchainCompassToolkit
 tools = LangchainCompassToolkit(compass_api_key=None).get_tools()
 [t.name for t in tools]
 ```
-```text
+```bash
+# output
 aave_supply_
 aave_borrow_
 aave_repay_
