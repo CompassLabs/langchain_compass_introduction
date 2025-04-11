@@ -126,7 +126,9 @@ while True:
 
 To see a full implementation of the agent using the langchain-compass toolkit please check out [our github repo here](https://github.com/CompassLabs/langchain_compass_introduction/):
 
-And run cli.py
+And run:
+
+```python ./cli.py```
 
 This full implementation contains clauses for handling different answer types including unsigned transactions, pure text answers and more.
 
