@@ -30,17 +30,34 @@ To see a full stack LLM-Application built using the toolkit please checkout the 
 
 To begin, import the toolkit in your Python environment.
 
-```
+```bash
 pip install -qU langchain-compass
 ```
 
 
 Then, you can list the available tools provided by LangChain-Compass simply by running:
 
-```
+```python
 from langchain_compass.toolkits import LangchainCompassToolkit
 tools = LangchainCompassToolkit(compass_api_key=None).get_tools()
 [t.name for t in tools]
+```
+```text
+aave_supply_
+aave_borrow_
+aave_repay_
+aave_withdraw_
+aave_asset_price_get_
+aave_liquidity_change_get_
+aave_user_position_summary_get_
+aave_user_position_per_token_get_
+aerodrome_slipstream_swap_sell_exactly_
+aerodrome_slipstream_swap_buy_exactly_
+aerodrome_slipstream_liquidity_provision_mint_
+aerodrome_slipstream_liquidity_provision_increase_
+aerodrome_slipstream_liquidity_provision_withdraw_
+aerodrome_slipstream_liquidity_provision_positions_get_
+...
 ```
 
 ## 3. Tools Overview:
