@@ -52,7 +52,11 @@ Here is a table presenting the different tools:
 
 ## 4. Building a Simple ReAct Agent Using LangChain
 
-To get started, you’ll need to add your OpenAI API key to a .env file in the root of your project. This keeps your credentials secure and separate from your codebase.
+LangChain is a popular framework for building AI agents that can process and respond to language inputs. The ReAct paradigm—short for “Reason and Act”—encourages the agent to think step-by-step before taking an action. 
+
+Here’s how you can set up a LangChain ReAct agent equipped with the LangChain-Compass DeFi tools:
+
+1. To get started, you’ll need to add your OpenAI API key to a .env file in the root of your project. This keeps your credentials secure and separate from your codebase.
 
 ```
 OPENAI_API_KEY=your_openai_api_key_here
@@ -60,8 +64,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 You can use our [.env.example file](https://github.com/CompassLabs/langchain_compass_introduction/.env.example) as a template. Just copy it, rename it to .env, and replace the placeholder with your actual API key:
 
-LangChain is a popular framework for building AI agents that can process and respond to language inputs. The ReAct paradigm—short for “Reason and Act”—encourages the agent to think step-by-step before taking an action. Here’s how you can set up a LangChain ReAct agent equipped with the LangChain-Compass DeFi tools.
-
+2. Run this script:
 ```
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
