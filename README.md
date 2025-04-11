@@ -126,6 +126,16 @@ while True:
 
 To see a full implementation of the agent using the langchain-compass toolkit please check out [our github repo here](https://github.com/CompassLabs/langchain_compass_introduction/):
 
+To install it you can run:
+
+```
+git clone https://github.com/CompassLabs/langchain_compass_introduction
+cd langchain_compass_introduction
+uv venv .venv
+source .venv/bin/activate
+uv pip install -r requirements
+```
+
 And run:
 
 ```python ./cli.py```
