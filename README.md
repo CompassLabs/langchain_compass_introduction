@@ -130,7 +130,7 @@ print(output["messages"][-1].content)
 
 To run the agent interactively please add this snippet to the bottom of the code in the previous section.
 
-```
+```python
 from rich.console import Console
 from rich.markdown import Markdown
 console = Console()
