@@ -155,7 +155,7 @@ pip install -r requirements
 And run:
 
 ```bash
-python ./cli.py
+python cli.py
 ```
 
 This full implementation contains clauses for handling different answer types including unsigned transactions, pure text answers and more.
