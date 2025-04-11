@@ -47,7 +47,7 @@ tools = LangchainCompassToolkit(compass_api_key=None).get_tools()
 
 Here is a table presenting the different tools:
 
-TABLE HERE…
+![tool_table.svg](../tool_table.svg)
 
 ## 4. Building a Simple ReAct Agent Using LangChain
 
