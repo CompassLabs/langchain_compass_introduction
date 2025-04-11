@@ -124,7 +124,7 @@ while True:
 
 ## 6. Full Implementation
 
-To see a full implementation of the agent using the langchain-compass toolkit please check out this github repo here:
+To see a full implementation of the agent using the langchain-compass toolkit please check out [our github repo here](https://github.com/CompassLabs/langchain_compass_introduction/):
 
 And run cli.py
 
