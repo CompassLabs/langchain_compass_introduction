@@ -61,6 +61,8 @@ aerodrome_slipstream_liquidity_provision_positions_get_
 ...
 ```
 
+Each tool corresponds to an [endpoint of the Compass API](https://docs.compasslabs.ai/api-reference/endpoints/aave-v3/supplylend) (the Universal API for DeFi).
+
 ## 3. Tools Overview:
 
 Here is a table presenting the different tools:
