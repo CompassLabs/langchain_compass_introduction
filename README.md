@@ -14,15 +14,15 @@ LangChain-Compass is a new toolkit designed to bridge these two worlds.
 
 The LangChain-Compass toolkit gives LLM's access to a Universal DeFi API. This means LLM-based agents can perform actions like:
 
-Swap tokens on major DEXs like Uniswap
+- Swap tokens on major DEXs like Uniswap
 
-Lend or borrow assets using protocols such as Aave
+- Lend or borrow assets using protocols such as Aave
 
-Provide liquidity on Aerodrome and Uniswap
+- Provide liquidity on Aerodrome and Uniswap
 
-Transfer funds between wallets.
+- Transfer funds between wallets.
 
-Query balances, portfolios and positions
+- Query balances, portfolios and positions
 
 To see a full stack LLM-Application built using the toolkit please checkout the Compass AI here
 
