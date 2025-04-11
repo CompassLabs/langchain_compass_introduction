@@ -38,7 +38,7 @@ def run_chat_mode(*, agent_executor: CompiledGraph, thread_id: str) -> None:
 
             # Print the response
             for answer in answers:
-                console.print(Markdown(answer.content))  # pyright: ignore
+                console.print(Markdown(str(answer.content)))  # pyright: ignore
 
         except KeyboardInterrupt:
             print("Goodbye Agent!")
