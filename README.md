@@ -148,17 +148,15 @@ To see a full implementation of the agent using the langchain-compass toolkit pl
 
 To install it you can run:
 
-```
-git clone https://github.com/CompassLabs/langchain_compass_introduction
-cd langchain_compass_introduction
-uv venv .venv
-source .venv/bin/activate
-uv pip install -r requirements
+```bash
+pip install -r requirements
 ```
 
 And run:
 
-```python ./cli.py```
+```bash
+python ./cli.py
+```
 
 This full implementation contains clauses for handling different answer types including unsigned transactions, pure text answers and more.
 
