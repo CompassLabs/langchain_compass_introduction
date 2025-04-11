@@ -108,7 +108,7 @@ agent = create_react_agent(
     llm,
     tools=tools,
     checkpointer=memory,
-    prompt="You are a helpful agent that can interact onchain using tools that you've been told how to use."
+    prompt="You are a helpful agent that can interact onchain using tools that you've been told how to use. If you are uncertain that you have sufficient information to call your tools then please ask the user for more information until you have sufficient information to call your tool."
 )
 
 # Example user query
