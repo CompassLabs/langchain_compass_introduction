@@ -149,7 +149,7 @@ To see a full implementation of the agent using the langchain-compass toolkit pl
 To install it you can run:
 
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 And run:
