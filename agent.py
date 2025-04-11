@@ -204,7 +204,6 @@ def get_non_stream_response(
 
 if __name__ == "__main__":
     test_messages = [
-        "Who is Elon?",
         "Please set my DAI allowance to 5.5 DAI for the UniswapV3Router for my wallet 0x7Fd9DBad4d8B8F97BEdAC3662A0129a5774AdA8E on arbitrum.",
         "What is my current USDC allowance on AAVE on ethereum? My address is 0x7Fd9DBad4d8B8F97BEdAC3662A0129a5774AdA8E.",
         "Can you visualize my portfolio on arbitrum? My address is 0x7Fd9DBad4d8B8F97BEdAC3662A0129a5774AdA8E.",
