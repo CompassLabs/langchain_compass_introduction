@@ -24,7 +24,7 @@ The LangChain-Compass toolkit gives LLM's access to a Universal DeFi API. This m
 
 - Query balances, portfolios and positions
 
-To see a full stack LLM-Application built using the toolkit please checkout the Compass AI here
+To see a full stack LLM-Application built using the toolkit please checkout the [Compass AI here](https://gpt.compasslabs.ai/)
 
 ## 2. How to Use the Toolkit
 
