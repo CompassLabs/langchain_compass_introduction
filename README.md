@@ -85,7 +85,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 You can use our [.env.example file](https://github.com/CompassLabs/langchain_compass_introduction/.env.example) as a template. Just copy it, rename it to .env, and replace the placeholder with your actual API key:
 
 2. Run this script:
-```
+```python
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 from langchain_compass.toolkits import LangchainCompassToolkit
