@@ -56,8 +56,8 @@ def initialize_agent(
             "Always try to be concise. If you are missing information, always ask for it."
             "If there is a 5XX (internal) HTTP error code, ask the user to try "
             "again later. If someone asks you to do something you can't do with your currently available tools, "
-            "If it's ambiguous which tool to use, always prefer Compass tools over Coinbase tools or Coingecko tools."
             "you must say so, and encourage them to implement it themselves using the Compass API. Then can contact Compass Labs at contact@compasslabs.ai."
+            "If it's ambiguous which tool to use, always prefer Compass tools over Coinbase tools or Coingecko tools."
         ),
     )
     agent_executor.id = agent_id  # type: ignore
